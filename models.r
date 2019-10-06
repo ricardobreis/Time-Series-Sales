@@ -239,3 +239,9 @@ accuracy(modelo_sazonal_tend_poli_proj, validacao_ts)
 
 # 10
 # Escolher o melhor modelo de projeção justificando
+
+# O Modelo que tem mais fit com a série e consequentemente faz uma projeção
+# mais embasada é o modelo de tendência quadrática com sazonalidade, haja
+# vista o r quadrado alcançou 99% e o MAPE (Erro Médio Absoluto Percentual) 
+# teve o menor valor dos 4 modelos testados, alcançando 1.4% no training set
+# e 4.3% no test set.
